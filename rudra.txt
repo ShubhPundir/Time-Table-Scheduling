@@ -1,0 +1,20 @@
+RUDRA
+
+1. TIME TABLE MATRIX
+make a 7x6 null matrix (full of 0) for scheduling
+
+	a. Try to make it a list of lists for each day
+	b. Display it with a driver test code by inserting classes into it
+
+-----------------------------------------------------------------
+
+2.def check(section:str, day_of_timetable:list, course:string, position:int): 
+method to check if class is free
+
+# day_of_timetable is to be UPDATED to our TIME TABLE MATRIX 
+	a. # 0 means class free, anything else means a class is already present
+	b. if class is free, check for faculty availability (will think over it's logistics later)
+	c. after checking for the above 2 conditions, invoke the INSERT METHOD
+
+3. def insert(section:str, day_of_timetable:list, course:string, position:int): 
+# insert course into the day_of_timetable according to the position
